@@ -28,11 +28,16 @@
 
         <a href="#5" class="item">
             <span>5</span>
+            <div class="tooltip">Why Async/Await</div>
+        </a>
+
+        <a href="#12" class="item">
+            <span>12</span>
             <div class="tooltip">Shout Out</div>
         </a>
 
-        <a href="#6" class="item">
-            <span>6</span>
+        <a href="#13" class="item">
+            <span>13</span>
             <div class="tooltip">Thank You</div>
         </a>
     </div>
@@ -92,7 +97,23 @@
         </div>
     </div>
 
-    <div id="5" class="wrapper primary-slide">
+    <div id="5" class="wrapper demo-slide">
+        
+        <div class="paragraph">
+            <h2>Why should we go for Async/Await</h2>
+            
+               
+                <li>To get away from anti-pattern in code that would happen due to poor structuring of asynchronous callback based javascript code famously known as callback hell</li>
+
+                <li>To eliminate series of error handling and relying on try/catch method just like other synchronous code</li>
+                <li>Debugging is much simpler. Setting a breakpoint inside a .then block will not move to the next .then because it only steps through synchronous code. But, you can step through await calls as if they were synchronous calls.</li>
+                    
+                    
+            </p>
+        </div>
+    </div>
+
+    <div id="12" class="wrapper primary-slide">
         <img class="social-media-image" src="https://presentation-js-maps.vercel.app/static/media/devkode.6a939699.svg" />
         <div class="paragraph">
             <div class="title-main-header">Thank You</div>
@@ -111,7 +132,7 @@
         </div>
     </div>
 
-    <div id="6" class="wrapper secondary-slide">
+    <div id="13" class="wrapper secondary-slide">
         Thank you
         <img class="social-media-svg" src="./socialmedianotification.svg" alt="socialmedianotification" >
         <div class="social-media">
