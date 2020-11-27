@@ -90,9 +90,10 @@
             <p>
                 Async functions return a Promise 🙋
                 <li>If the function throws an error, the Promise will be rejected. ✔️</li>
-                <li>If the function returns a value, the Promise will be resolved. ❌</li>
-                    
-                    
+                <li>If the function returns a value, the Promise will be resolved. ❌</li>      
+            </p>
+            <p>
+                Example:  <a href="https://repl.it/@HarshithV/asyncawaitintroduction#index.js">Example1</a>
             </p>
         </div>
     </div>
@@ -103,14 +104,10 @@
             <h2>Why should we go for Async/Await</h2>
             
                <br />
-               <hr />
+               
                 <li>To get away from anti-pattern in code that would happen due to poor structuring of asynchronous callback based javascript code famously known as callback hell</li>
-
                 <li>To eliminate series of error handling and relying on try/catch method just like other synchronous code</li>
                 <li>Debugging is much simpler. Setting a breakpoint inside a .then block will not move to the next .then because it only steps through synchronous code. But, you can step through await calls as if they were synchronous calls.</li>
-                    
-                    
-            </p>
         </div>
     </div>
 
