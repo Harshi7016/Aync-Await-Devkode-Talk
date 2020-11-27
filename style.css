@@ -217,3 +217,10 @@ th {
   width: 250px;
   height: 250px;
 }
+
+.link-demo {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
