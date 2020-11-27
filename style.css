@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif:wght@400;500&display=swap');
 :root {
-  --demo-slide: #fad257;
+  --demo-slide: #ac871a;
   --primary-slide: #264653;
   --secondary-slide: #2a9d8f;
   --tertiary-slide: #e76f51;
@@ -223,4 +223,14 @@ th {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+.link-demo a a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.link-demo a {
+  text-decoration: none;
+  color: white;
 }
