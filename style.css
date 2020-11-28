@@ -239,3 +239,8 @@ th {
   text-decoration: none;
   color: white;
 }
+
+.project-image {
+  width: auto;
+  height: 80%;
+}
